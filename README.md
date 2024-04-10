@@ -26,13 +26,15 @@ https://github.com/luocl4/gongtongfund
 
 ![image-20240410202431561](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202431561.png)
 
-![image-20240410202547043](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202547043.png)
+![image-20240410202547043](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202547043.png)
 
-![image-20240410202602315](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202602315.png)
+![image-20240410202602315](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202602315.png)
 
-![image-20240410202611849](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202611849.png)
+![image-20240410202611849](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202611849.png)
 
-![image-20240410202621398](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202621398.png)
+![image-20240410202621398](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202621398.png)
 
-![image-20240410202631550](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202631550.png)
+![image-20240410202631550](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202631550.png)
+
+![https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202702177.png](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202702177.png)
 
