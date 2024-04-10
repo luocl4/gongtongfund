@@ -12,9 +12,9 @@
 
 https://github.com/luocl4/gongtongfund
 
-######  网站上线地址 ：
+######  网站上线地址 ：（目前已进行版本迭代）
 
-http://gongtongfund.com/（目前已进行版本迭代）
+http://gongtongfund.com/
 
 ######  技术栈：
 
