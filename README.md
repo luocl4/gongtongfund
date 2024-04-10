@@ -24,7 +24,7 @@ https://github.com/luocl4/gongtongfund
 
 ###### 网页截图：
 
-![image-20240410202431561](D:\usual\实习\新建文件夹\gongtongfund\readme.md的素材\image-20240410202431561.png)
+![image-20240410202431561](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202431561.png)
 
 ![image-20240410202547043](C:\Users\23011\AppData\Roaming\Typora\typora-user-images\image-20240410202547043.png)
 
