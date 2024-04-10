@@ -29,6 +29,7 @@ http://gongtongfund.com/
 ###### 运行步骤：
 
 step1.npm install
+
 step2.npm run dev
 
 tips.由于node版本问题，请在第二步之前运行$env:NODE_OPTIONS="--openssl-legacy-provider"
