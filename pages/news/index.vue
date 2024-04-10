@@ -30,14 +30,8 @@
       </div>
     </div>
     <!-- 底部分页内容 -->
-    <el-pagination
-      background
-      @current-change="handleCurrentChange"
-      :current-page="pagination.currentPage"
-      :page-size="9"
-      layout="prev, pager, next, jumper"
-      :total="pagination.total"
-    >
+    <el-pagination background @current-change="handleCurrentChange" :current-page="pagination.currentPage"
+      :page-size="9" layout="prev, pager, next, jumper" :total="pagination.total">
     </el-pagination>
   </div>
 </template>
@@ -84,7 +78,6 @@ export default {
       });
       // console.log(res);
       this.newsList = res.data;
-      // this.pagination.total = res.data.length;
       const { data: res2 } = await this.$http.get("/articles/count", {
         params: { site: "gongtong", category: "新闻中心" },
       });
@@ -139,6 +132,7 @@ export default {
   text-align: center;
   margin-top: 20px;
 }
+
 .timeplace span:first-child {
   font-family: "Arial Normal", "Arial", sans-serif;
   font-weight: 400;
@@ -151,6 +145,7 @@ export default {
   font-kerning: normal;
   font-size: 18px;
 }
+
 .timeplace span:last-child {
   font-family: "Arial Normal", "Arial", sans-serif;
   font-weight: 400;
@@ -163,9 +158,11 @@ export default {
   text-transform: none;
   line-height: 24px;
 }
+
 .titleBuFen p {
   margin: 0px;
 }
+
 .team {
   background-color: #f5f5f5;
   width: 80%;
@@ -173,14 +170,17 @@ export default {
   /* grid-gap: 10px; */
   /* margin: 0 auto; */
 }
+
 .el-card {
   height: 570px;
   margin-bottom: 20px;
 }
+
 .el-col img {
   height: 200px;
   width: 100%;
 }
+
 .dingyang p span:first-child {
   font-family: "微软雅黑", sans-serif;
   font-weight: 400;
@@ -190,6 +190,7 @@ export default {
   color: #666666;
   vertical-align: none;
 }
+
 .dingyang p span:last-child {
   font-family: "微软雅黑", sans-serif;
   font-weight: 400;
@@ -198,6 +199,7 @@ export default {
   text-align: left;
   padding-left: 20px;
 }
+
 .introduce p span {
   font-family: "微软雅黑", sans-serif;
   font-weight: 400;
@@ -208,6 +210,7 @@ export default {
   line-height: 24px;
   /* text-indent: 2em; */
 }
+
 .titleBuFen {
   /* margin-top: 300px;  */
   z-index: 9999;
@@ -215,6 +218,7 @@ export default {
   height: 70px;
   padding-left: 10px;
 }
+
 .titleBuFen p:first-child {
   font-family: 微软雅黑, sans-serif;
   font-weight: 400;
@@ -222,6 +226,7 @@ export default {
   text-align: left;
   font-size: 16px;
 }
+
 .titleBuFen p:last-child {
   font-family: 微软雅黑, sans-serif;
   font-weight: 400;
@@ -236,6 +241,7 @@ export default {
   height: 450px;
   width: 100%;
 }
+
 /* .el-col {
   border-width: 1px;
   border-style: solid;
@@ -247,26 +253,31 @@ export default {
   left: 40%;
   /* align-content: center; */
 }
+
 .dianjijinruClass {
   cursor: pointer;
 }
+
 .titlep {
   color: rgb(28, 26, 26);
   font-size: 15px;
   text-align: left;
 }
+
 .contentp {
   color: rgb(73, 71, 71);
   font-size: 14px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .block {
   padding: 0.5%;
   width: 32.3%;
   display: inline-block;
   text-align: center;
 }
+
 .block img {
   /* margin: 0px auto; */
   /* position: relative; */

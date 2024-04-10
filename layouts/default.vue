@@ -3,7 +3,7 @@
     <Header class="header"></Header>
     <!-- 页头组件 -->
     <nuxt class="nuxt"></nuxt>
-    <Footer class="footer" />
+    <Footer class="footer bottom-class" />
     <!-- 页尾组件 -->
     <Suspension class="suspension"></Suspension>
   </div>
@@ -30,6 +30,7 @@ export default {
 .nuxt {
   margin-top: 100px;
 }
+
 .header {
   width: 100%;
   background-color: white;
@@ -37,6 +38,7 @@ export default {
   top: 0;
   z-index: 99999;
 }
+
 .footer {
   width: 100%;
   /* background-color: white; */
@@ -44,6 +46,7 @@ export default {
   bottom: 0;
   z-index: 99999;
 }
+
 body {
   margin-top: 0px;
   margin-left: 0px;
@@ -52,6 +55,7 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
 .suspension {
   position: fixed;
   right: 20px;

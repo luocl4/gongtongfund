@@ -14,12 +14,10 @@
           <li v-for="(item, index) in fundList" :key="index">
             <div v-on:click="dianjijinru(item)" class="dianjijinruClass">
               <el-row>
-                <el-col :span="19" id="titleN"
-                  >{{ index + 1 }}.{{ item.title }}</el-col
-                >
+                <el-col :span="19" id="titleN">{{ index + 1 }}.{{ item.title }}</el-col>
                 <el-col :span="5" id="titleN">{{
-                  item.update_at.substring(0, 10)
-                }}</el-col>
+            item.update_at.substring(0, 10)
+          }}</el-col>
               </el-row>
             </div>
           </li>
@@ -27,14 +25,8 @@
       </div>
     </div>
     <!-- 底部分页内容 -->
-    <el-pagination
-      background
-      @current-change="handleCurrentChange"
-      :current-page="pagination.currentPage"
-      :page-size="10"
-      layout="prev, pager, next, jumper"
-      :total="pagination.total"
-    >
+    <el-pagination background @current-change="handleCurrentChange" :current-page="pagination.currentPage"
+      :page-size="10" layout="prev, pager, next, jumper" :total="pagination.total">
     </el-pagination>
   </div>
 </template>
@@ -143,9 +135,11 @@ export default {
 .topimg img {
   height: 400px !important;
 }
+
 .el-card__body {
   padding: 13px !important;
 }
+
 .titleBuFen p:first-child {
   font-family: 微软雅黑, sans-serif;
   font-weight: 400;
@@ -153,6 +147,7 @@ export default {
   text-align: left;
   font-size: 16px;
 }
+
 .titleBuFen p:last-child {
   font-family: 微软雅黑, sans-serif;
   font-weight: 400;
@@ -162,10 +157,12 @@ export default {
   color: #999999;
   font-size: 12px;
 }
+
 .text {
   font-size: 20px;
   color: white;
 }
+
 .list-title {
   color: #fff;
   margin-bottom: 20px;
@@ -175,14 +172,17 @@ export default {
   align-items: flex-start;
   border-left: 4px solid #97b9ff;
 }
+
 .list-title h2 {
   color: #fff;
   margin: 0;
   padding: 0;
 }
+
 .item {
   margin-top: 30px;
 }
+
 .text a {
   text-decoration: none;
   color: #ffffff;
@@ -190,11 +190,13 @@ export default {
   font-size: 18px;
   font-weight: 300;
 }
+
 .clearfix:before,
 .clearfix:after {
   display: table;
   content: "";
 }
+
 .clearfix:after {
   clear: both;
 }
@@ -211,9 +213,11 @@ export default {
   margin: 0 auto;
   z-index: 9999;
 }
+
 .control-center {
   text-align: center;
 }
+
 .el-pagination {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -222,22 +226,27 @@ export default {
   font-size: 14px;
   font-weight: 400;
 }
+
 .el-pagination.is-background .el-pager li:not(.disabled).active {
   /*当前选中页数的样式进行修改*/
   background-color: #97b9ff;
   color: #fff;
 }
+
 .el-pagination {
   position: relative;
   left: 40%;
   align-content: center;
 }
+
 .fundInformation ul li {
   height: 40px;
 }
+
 .fundInformation ul {
   list-style-type: none;
 }
+
 #titleN {
   /* font-size: 19px; */
   text-align: left;
@@ -246,6 +255,7 @@ export default {
   font-style: normal;
   color: #666666;
 }
+
 .dianjijinruClass {
   cursor: pointer;
 }
