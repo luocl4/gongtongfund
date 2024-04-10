@@ -26,6 +26,13 @@ http://gongtongfund.com/
 | **axios**       | **0.24.0**  |
 | **BaiduMap.js** | **0.21.22** |
 
+###### 运行步骤：
+
+step1.npm install
+step2.npm run dev
+
+tips.由于node版本问题，请在第二步之前运行$env:NODE_OPTIONS="--openssl-legacy-provider"
+
 ###### 网页截图：
 
 ![image-20240410202431561](https://github.com/luocl4/gongtongfund/blob/main/readme.md%E7%9A%84%E7%B4%A0%E6%9D%90/image-20240410202431561.png)
