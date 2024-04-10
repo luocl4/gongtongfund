@@ -14,7 +14,7 @@ https://github.com/luocl4/gongtongfund
 
 ######  网站上线地址 ：
 
-[https://github.com/luocl4/gongtongfund](http://gongtongfund.com/)
+http://gongtongfund.com/
 
 ######  技术栈：
 
